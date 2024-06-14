@@ -2,12 +2,12 @@
 
 ![status: abandoned](https://img.shields.io/badge/status-abandoned-red)
 
-**NOTE**: This crate is abandoned. See https://github.com/egg-mode-rs/egg-mode/issues/132 for
+**NOTE**: This crate is abandoned. See https://github.com/devenye/egg-mode/issues/132 for
 details.
 
 # egg-mode
 
-Twitter library for Rust ![Build Status](https://github.com/egg-mode-rs/egg-mode/workflows/CI/badge.svg)
+Twitter library for Rust ![Build Status](https://github.com/devenye/egg-mode/workflows/CI/badge.svg)
 
 [Documentation](https://docs.rs/egg-mode/)
 
@@ -19,13 +19,13 @@ mechanisms; for example, cursored lists of users and tweets can be used as an it
 to being able to manually load a page at a time.
 
 
-[TODO.md]: https://github.com/egg-mode-rs/egg-mode/blob/master/TODO.md
+[TODO.md]: https://github.com/devenye/egg-mode/blob/master/TODO.md
 
 **NOTE**: Previous versions of egg-mode contained a port of twitter-text to use for character
 counting and mention/hashtag/url extraction. That has since been extracted into its own crate,
 [egg-mode-text].
 
-[egg-mode-text]: https://github.com/egg-mode-rs/egg-mode-text
+[egg-mode-text]: https://github.com/devenye/egg-mode-text
 
 ## MSRV
 
@@ -113,11 +113,6 @@ wrapped up in code to write the access token to disk and load it back in.
 `examples/bearer.rs` is an example of using application-only authentication to get a Bearer token
 and use it to load a user's posts. Other examples showcase a handful of actions from their related
 module.
-
-If you've found egg-mode useful, or just want to communicate your first impressions of it, please
-[track me down on Twitter][qm-twitter] and let me know!
-
-[qm-twitter]: https://twitter.com/QuietMisdreavus
 
 ## License
 
